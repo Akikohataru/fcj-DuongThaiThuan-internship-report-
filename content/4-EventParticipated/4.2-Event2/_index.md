@@ -6,119 +6,59 @@ chapter: false
 pre: " <b> 4.2. </b> "
 ---
 
-# Summary Report: "FCAJ Community Day – June 27, 2026"
+# Event Report: FCAJ Community Day – June 27, 2026
 
----
+## Quick Facts
 
-## 1. Event Overview
+- **Event:** FCAJ Community Day – June 2026
+- **Host:** First Cloud Journey (FCAJ)
+- **When:** Saturday, June 27, 2026
+- **Where:** Ho Chi Minh City (in-person)
+- **Format:** Tech talks + live product demos
+- **Theme:** AI moving from slideware to production
 
-|                |                                         |
-| -------------- | --------------------------------------- |
-| **Event name** | FCAJ Community Day                      |
-| **Date**       | June 27, 2026                           |
-| **Organizer**  | First Cloud Journey (FCAJ)              |
-| **Format**     | In-person seminar + live demonstrations |
+## Why This One Mattered More
 
----
+The first FCAJ Community Day in May taught me the *vocabulary*. This second one showed me the *bill of materials*. Where the May event leaned on theory and hands-on labs, the June event was built around **four live, unbroken product demonstrations** — Voice AI, AgenticOps, Amazon Q for HR, and an Amazon Q + MCP stack hardened with VPC and IAM controls.
 
-## 2. Event Objectives
+I went in curious. I left with a notebook full of diagrams I had never seen before.
 
-- Update knowledge and emerging trends in AI, AWS, Amazon Q, AI Agents, and MCP
-- Introduce AWS technologies and services with real-world enterprise applications
-- Share career development experiences in the cloud field, from student to founder
-- Deepen understanding of Voice AI system architecture, AWS DevOps Agent, and Amazon Q in enterprise environments
-- Provide practical perspectives on operational costs, security, VPC configuration, and modern cloud deployment
+## Four Live Demonstrations, Four Mental Models
 
----
+### 1. Voice AI — When the model talks back
 
-## 3. Speakers
+Trung Vu (Revve AI) brought a voice agent on stage and let it take real calls from the audience. The thing that surprised me was not that it worked — it was **how little of the screen was occupied by the model itself**. Most of the latency budget was spent on speech recognition, intent routing, and tool execution *around* the LLM. The model was the easy part.
 
-- **Nhat Tran** – CTO, CloudThinker
-- **Nghị Danh Hoàng Hiếu** – Renova Cloud
-- **Trung Vu** – Revve AI
-- **Kiet Tran** – AWS Student Builder Group
-- **Bao Phan Kim** – Cloud Engineer
-- **Minh Nguyen Nguyen** – Cloud Engineer
-- **Anh Trường** – Noventiq Vietnam
-- **Minh Anh Đặng Cao** – Noventiq Vietnam
-- **Đức Toàn Nguyễn** – AWS Security Builder
+### 2. AgenticOps — AI as a teammate, not a tool
 
----
+Anh Trường and Minh Anh Đặng Cao (Noventiq Vietnam) demoed an E-shop pipeline where a DevOps Agent watched builds, opened tickets, and rolled back failed deploys without a human in the loop. Their point was sharp: the value of AgenticOps is not *replacing* operators — it is **buying back their attention** for the failures that actually matter.
 
-## 4. Main Content
+### 3. Amazon Q for HR — Retrieval over reasoning
 
-### 4.1. Career Journey – From Student to Founder
+Bao Phan Kim and Minh Nguyen Nguyen walked through an HR assistant connected to internal policy docs. The most useful thing I took away was the framing: Amazon Q was not *generating* answers, it was **retrieving policy fragments and stitching them with citations**. The recruiter in the demo could see exactly which document each sentence came from.
 
-- Sharing on the journey from university student to cloud founder
-- The milestone of earning the first AWS certification during 2020–2021 and lessons learned along the way
-- Perspectives on the future cloud/AI job market and real-world project architecture
+### 4. Amazon Q + MCP + VPC — A security story disguised as a feature demo
 
-### 4.2. Voice AI System Architecture
+Đức Toàn Nguyễn (AWS Security Builder) closed the day by connecting Amazon Q to an internal MCP server — and then locking the whole thing inside a private VPC. The demo doubled as a security lecture. The lesson: *Amazon Q does not need to be the weakest link in your network.*
 
-- How to build AI systems capable of natural speech-based interaction
-- How components within the system coordinate to create a seamless user experience
-- Live demo: how a voice agent operates in practice
-- Specific use cases: **virtual assistants**, **customer support**, **communication automation**, **operational assistance**
+## Two Conversations That Stuck
 
-### 4.3. AWS DevOps Agent & AgenticOps
+Between sessions, I had two short conversations that shaped how I now plan my next learning steps.
 
-- The concept of **AgenticOps** – applying AI Agents to cloud DevOps operations
-- How agents help DevOps teams automate repetitive tasks, analyze errors, and improve operational efficiency
-- Cost considerations when running agents and optimization strategies in real environments
-- Live demo of the **E-shop** application using a DevOps Agent and popular use cases
+- **Nhat Tran (CloudThinker)** told me about earning his first AWS certification in 2020–2021 — and then doing *nothing* with it for a year while he built the rest of the picture. That sentence reframed my obsession with certificates into something healthier.
+- **Nghị Danh Hoàng Hiếu (Renova Cloud)** said the most underrated skill for a cloud engineer today is learning to *say no* to features that look good in a demo but hurt the architecture long-term. I am now writing that on my wall.
 
-### 4.4. Amazon Q for HR & Enterprise
+## What I Took Back To The SmartMenu Project
 
-- Challenges and strategies for applying AI to HR recruitment processes
-- **Amazon Q** capabilities: workforce planning, resource allocation, information retrieval, data synthesis, and decision support
-- Live demo of Amazon Q for HR: understanding how AI can boost productivity and support the recruitment workflow
+- I redrew the SmartMenu architecture with an explicit *context boundary* — a private VPC, an MCP server, and an Amazon Q layer for internal documentation retrieval. Same product, but now with clear trust zones.
+- I added a "where does this data come from?" column to our retrieval evaluation table, taken directly from the HR demo.
 
-### 4.5. Amazon Q + MCP & Cloud Security
-
-- How to connect **Amazon Q** with **MCP (Model Context Protocol)**
-- **VPC configuration**, access control, and building security architecture in modern cloud environments
-- End-to-end demo: combining Amazon Q, MCP, VPC, and security components to build an AI system that is **secure**, **private**, and **practically applicable**
-
----
-
-## 5. Key Takeaways
-
-| Topic                                        | Insight                                                                                                                     |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Cloud is more than just coding**           | Cloud engineers need systems thinking, security awareness, and cost optimization skills — not just programming ability      |
-| **AgenticOps is the future of DevOps**       | AI Agents can automate operational tasks, freeing DevOps teams to focus on higher-value work                                |
-| **Voice AI opens new use cases**             | AI voice systems go beyond chatbots — they can replace and optimize entire customer service workflows                       |
-| **Amazon Q scales with MCP**                 | Combining Amazon Q and MCP allows AI to securely access and interact with internal enterprise systems                       |
-| **Security must be built in from the start** | VPC, access control, and security architecture must be designed into AI systems from day one — not added as an afterthought |
-
----
-
-## 6. Applying to Work
-
-- **Study Voice AI**: Explore how to build voice AI systems and the architectural components involved
-- **Practice AgenticOps**: Investigate how to use AI Agents to automate DevOps tasks in real projects
-- **Integrate Amazon Q + MCP**: Experiment with connecting Amazon Q to MCP to extend AI capabilities in the development environment
-- **Design cloud security**: Apply knowledge of VPC and access control to build secure AI system architectures
-- **Career planning**: Use insights shared by speakers on the student → founder journey to shape a personal development roadmap
-
----
-
-## 7. Personal Experience
-
-Attending **FCAJ Community Day – June 27, 2026** was a very different experience from the first event — this time the content went much deeper into real-world enterprise AI applications, especially on topics like **Voice AI**, **AgenticOps**, and **Amazon Q + MCP** that I hadn't had the chance to explore in detail before.
-
-The most impressive part was the live demonstrations. Rather than just talking about concepts, speakers actually ran their applications in front of the audience. Watching an E-shop operate with a DevOps Agent automatically handling errors, or seeing an HR system use Amazon Q to synthesize recruitment data, gave me a much clearer understanding than reading documentation ever could.
-
-The career story shared by Nhat Tran — CTO of CloudThinker — also left a strong impression. The account of earning his first AWS certification in 2020–2021 and building a cloud career from the ground up showed clearly that a solid technical foundation combined with product thinking and business sense is what truly creates differentiation.
-
-Networking after the event also brought many practical insights about the current market and the skills cloud engineers of the next generation should prioritize.
-
----
-
-## 8. Event Photos
+## Photos
 
 ![Group photo at FCAJ Community Day – June 27, 2026]({{< baseurl >}}images/4-EventParticipated/event2.jpg)
 
 ![Event hall – presentation by Revve AI]({{< baseurl >}}images/4-EventParticipated/event_2_3.jpg)
 
-> **Overall**, FCAJ Community Day – June 27, 2026 gave me a practical and multi-dimensional view of how AI is being integrated into enterprise environments — from Voice AI and DevOps Agents to Amazon Q with cloud security. It was a major source of inspiration to continue learning deeply and to define a clearer direction for my career in cloud and AI.
+## Closing Thought
+
+If the May event gave me the *vocabulary* of enterprise AI, the June event gave me the *checklist*. Every demo followed the same hidden pattern — guardrails, retrievable context, a clear trust boundary, and a human in the loop where it counts. I expect that pattern to keep showing up in everything I build for the rest of this internship.
