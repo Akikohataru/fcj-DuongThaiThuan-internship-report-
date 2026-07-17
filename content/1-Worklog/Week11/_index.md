@@ -3,7 +3,10 @@ title: "Week 11 Worklog"
 date: 2026-07-13
 weight: 11
 chapter: false
-pre: " <b> 1.11. </b> "
+pre: " <b> 11. </b> "
+aliases:
+  - /1-Worklog/1.11-Week11/
+  - /vi/1-Worklog/1.11-Week11/
 ---
 
 ### Week 11 Goals:

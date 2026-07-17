@@ -3,7 +3,7 @@ title: "Worklog Tuần 8"
 date: 2026-06-22
 weight: 8
 chapter: false
-pre: " <b> 1.8. </b> "
+pre: " <b> 8. </b> "
 ---
 
 ### Mục tiêu Tuần 8:

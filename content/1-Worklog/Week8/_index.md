@@ -3,7 +3,10 @@ title: "Week 8 Worklog"
 date: 2026-06-22
 weight: 8
 chapter: false
-pre: " <b> 1.8. </b> "
+pre: " <b> 8. </b> "
+aliases:
+  - /1-Worklog/1.8-Week8/
+  - /vi/1-Worklog/1.8-Week8/
 ---
 
 ### Week 8 Goals:
