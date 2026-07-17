@@ -12,26 +12,26 @@ On this page, I will summarize my entire learning and hands-on experience on the
 
 Below is the list of weekly worklogs:
 
-**Week 1:** [Introduction to AWS, IAM, VPC, EC2, and S3](1.1-week1/)
+**Week 1:** [Introduction to AWS, IAM, VPC, EC2, and S3](Week1/)
 
-**Week 2:** [Databases (RDS), Auto Scaling, and CloudWatch](1.2-week2/)
+**Week 2:** [Databases (RDS), Auto Scaling, and CloudWatch](Week2/)
 
-**Week 3:** [DynamoDB, Caching, CloudFront, and High Availability (HA)](1.3-week3/)
+**Week 3:** [DynamoDB, Caching, CloudFront, and High Availability (HA)](Week3/)
 
-**Week 4:** [Server Migration (VM), Database Migration (DMS), and Disaster Recovery](1.4-week4/)
+**Week 4:** [Server Migration (VM), Database Migration (DMS), and Disaster Recovery](Week4/)
 
-**Week 5:** [SmartMenu Research, AWS Blog Writing, and Environment Preparation](1.5-week5/)
+**Week 5:** [SmartMenu Research, AWS Blog Writing, and Environment Preparation](Week5/)
 
-**Week 6:** [AWS Solution Architecture Design](1.6-week6/)
+**Week 6:** [AWS Solution Architecture Design](Week6/)
 
-**Week 7:** [SmartMenu Development - Modules and Interfaces](1.7-week7/)
+**Week 7:** [SmartMenu Development - Modules and Interfaces](Week7/)
 
-**Week 8:** [Architecture Review, Feedback, and Design Adjustments](1.8-week8/)
+**Week 8:** [Architecture Review, Feedback, and Design Adjustments](Week8/)
 
-**Week 9:** [AWS Deployment - Frontend S3, CloudFront, Backend Lambda, API Gateway, and DynamoDB](1.9-week9/)
+**Week 9:** [AWS Deployment - Frontend S3, CloudFront, Backend Lambda, API Gateway, and DynamoDB](Week9/)
 
-**Week 10:** [Testing - Unit Test, Integration Test, Translation Service with Amazon Bedrock](1.10-week10/)
+**Week 10:** [Testing - Unit Test, Integration Test, Translation Service with Amazon Bedrock](Week10/)
 
-**Week 11:** [Finalization - Feature Review, UI Optimization, Documentation, and Reporting](1.11-week11/)
+**Week 11:** [Finalization - Feature Review, UI Optimization, Documentation, and Reporting](Week11/)
 
-**Week 12:** [Project Completion - Final Testing, Documentation, and Internship Summary](1.12-week12/)
+**Week 12:** [Project Completion - Final Testing, Documentation, and Internship Summary](Week12/)
