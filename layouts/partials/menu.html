@@ -46,10 +46,13 @@
               <select id="select-language" onchange="location = this.value;">
                 {{ $pageLang := .Page.Lang}}
                 {{ range .Page.AllTranslations }}
+                {{ $langName := "" }}
+                {{ if eq .Language.Lang "en" }}{{ $langName = "English" }}{{ end }}
+                {{ if eq .Language.Lang "vi" }}{{ $langName = "Tiếng Việt" }}{{ end }}
                 {{ if eq $pageLang .Lang}}
-                <option id="{{ .Language }}" value="{{ .Permalink }}" selected>{{ .Language.Label }}</option>
+                <option id="{{ .Language }}" value="{{ .Permalink }}" selected>{{ $langName }}</option>
                 {{ else }}
-                <option id="{{ .Language }}" value="{{ .Permalink }}">{{ .Language.Label }}</option>
+                <option id="{{ .Language }}" value="{{ .Permalink }}">{{ $langName }}</option>
                 {{ end }}
                 {{ end }}
               </select>
