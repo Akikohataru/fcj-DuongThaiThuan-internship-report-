@@ -119,8 +119,6 @@ Networking with engineers from companies like GoTymeX, Cloud Kinetics, and VPBan
 
 ## 8. Event Photos
 
-![Attending FCAJ Community Day with fellow participants]({{< baseurl >}}images/event_1/event_1_1.jpg)
-
-![Workshop exercises at the event – MCP Integration and Terraform Deployment]({{< baseurl >}}images/event_1/event_1_2.jpg)
+![Attending FCAJ Community Day with fellow participants]({{< baseurl >}}images/4-EventParticipated/event1.jpg)
 
 > **Overall**, FCAJ Community Day – May 23, 2026 not only provided deep technical knowledge in AI and AWS but also helped me shape a clearer product development mindset, strengthen teamwork skills under high-pressure conditions, and adopt a more practical approach to the latest technologies in the industry.

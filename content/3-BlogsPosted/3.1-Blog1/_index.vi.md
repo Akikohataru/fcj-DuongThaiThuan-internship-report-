@@ -22,7 +22,7 @@ Nếu tự xây dựng hạ tầng, nhà phát triển sẽ phải giải quyế
 ### Kiến trúc tổng quan
 Kiến trúc cơ bản của GameLift có thể mô tả theo quy trình kết nối và xử lý yêu cầu sau:
 
-![Amazon GameLift Architecture](/images/3-BlogsPosted/blog1.png)
+![Amazon GameLift Architecture]({{< baseurl >}}images/3-BlogsPosted/blog1.png)
 
 **Quy trình diễn ra như sau:**
 1. Người chơi gửi yêu cầu tham gia trận đấu từ client.

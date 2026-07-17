@@ -56,7 +56,7 @@ Therefore, it is necessary to build a system that digitalizes the entire menu vi
 - **AWS WAF:** Protects the system from common web exploits.
 - **Amazon CloudWatch:** Monitors the system, collects logs, metrics, and sends alerts when issues occur.
 
-![SmartMenu Architecture](/images/2-Proposal/smartmenu_architecture.png)
+![SmartMenu Architecture]({{< baseurl >}}images/2-Proposal/smartmenu_architecture.png)
 
 ### 5. Technical Implementation
 #### 5.1. Implementation Phases

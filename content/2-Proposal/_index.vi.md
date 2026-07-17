@@ -56,7 +56,7 @@ Do đó cần xây dựng một hệ thống số hóa toàn bộ quy trình xem
 - **AWS WAF:** Bảo vệ hệ thống trước các cuộc tấn công phổ biến trên web.
 - **Amazon CloudWatch:** Giám sát hệ thống, thu thập logs, metrics và gửi cảnh báo khi xảy ra sự cố.
 
-![SmartMenu Architecture](/images/2-Proposal/smartmenu_architecture.png)
+![SmartMenu Architecture]({{< baseurl >}}images/2-Proposal/smartmenu_architecture.png)
 
 ### 5. Triển khai kỹ thuật
 #### 5.1. Các giai đoạn triển khai
