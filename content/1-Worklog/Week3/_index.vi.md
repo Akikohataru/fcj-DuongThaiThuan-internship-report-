@@ -4,6 +4,9 @@ date: 2026-05-18
 weight: 3
 chapter: false
 pre: " <b> 3. </b> "
+aliases:
+  - /1-Worklog/1.3-Week3/
+  - /vi/1-Worklog/1.3-Week3/
 ---
 
 ### Mục tiêu Tuần 3:
