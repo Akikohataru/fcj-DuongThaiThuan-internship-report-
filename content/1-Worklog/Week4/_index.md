@@ -3,7 +3,7 @@ title: "Week 4 Worklog"
 date: 2026-05-25
 weight: 4
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4. </b> "
 aliases:
   - /1-Worklog/1.4-Week4/
   - /vi/1-Worklog/1.4-Week4/

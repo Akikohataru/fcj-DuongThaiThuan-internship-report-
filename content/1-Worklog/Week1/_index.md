@@ -3,7 +3,7 @@ title: "Week 1 Worklog"
 date: 2026-05-05
 weight: 1
 chapter: false
-pre: " <b> 1.1. </b> "
+pre: " <b> 1. </b> "
 aliases:
   - /1-Worklog/1.1-Week1/
   - /vi/1-Worklog/1.1-Week1/

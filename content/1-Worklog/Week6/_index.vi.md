@@ -3,7 +3,7 @@ title: "Worklog Tuần 6"
 date: 2026-06-08
 weight: 6
 chapter: false
-pre: " <b> 6.1. </b> "
+pre: " <b> 6. </b> "
 ---
 
 ### Mục tiêu Tuần 6:
